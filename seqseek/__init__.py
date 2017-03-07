@@ -1,4 +1,4 @@
 
-from chromosome import Chromosome
+from .chromosome import Chromosome
 
-from lib import BUILD37, BUILD38
+from .lib import BUILD37, BUILD38

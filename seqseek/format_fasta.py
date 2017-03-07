@@ -2,7 +2,7 @@ import argparse
 
 
 def run(path):
-    print "Formatting %s" % path
+    print("Formatting %s" % path)
     with open(path) as fasta:
         header = ''
         first_line = fasta.readline()
@@ -19,7 +19,7 @@ def run(path):
     with open(path + '.seqseek') as done:
         done.readline()
         sequence = done.read()
-        print "Length is %d" % len(sequence)
+        print("Length is %d" % len(sequence))
 
 
 if __name__ == '__main__':
